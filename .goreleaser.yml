@@ -22,7 +22,8 @@ brews:
     homepage: https://github.com/alfonsfoubert/h2rzoom
     repository:
       owner: alfonsfoubert
-      name: homebrew-alfonsfoubert
+      name: h2rzoom
+      branch: main
     commit_author:
       name: alfonsfoubert
       email: alfonsfoubert@gmail.com

@@ -5,11 +5,11 @@
 class H2rzoom < Formula
   desc ""
   homepage "https://github.com/alfonsfoubert/h2rzoom"
-  version "0.2.3"
+  version "0.2.4"
 
   on_macos do
-    url "https://github.com/alfonsfoubert/h2rzoom/releases/download/v0.2.3/h2rzoom_0.2.3_darwin_all.tar.gz"
-    sha256 "59d318d461b3316b1b3d395cb41e063a7bb2504480b99330333f6977eedbea43"
+    url "https://github.com/alfonsfoubert/h2rzoom/releases/download/v0.2.4/h2rzoom_0.2.4_darwin_all.tar.gz"
+    sha256 "0663f25fd40639353e4fba91f4d0267c9dd69942b43e3bfb06a6d195a0706eca"
 
     def install
       bin.install "h2rzoom"
@@ -18,16 +18,16 @@ class H2rzoom < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/alfonsfoubert/h2rzoom/releases/download/v0.2.3/h2rzoom_0.2.3_linux_arm64.tar.gz"
-      sha256 "0f60d525f70280aa08f51a67c808365772796df8af1d59cd5b55b77bb4852f9a"
+      url "https://github.com/alfonsfoubert/h2rzoom/releases/download/v0.2.4/h2rzoom_0.2.4_linux_arm64.tar.gz"
+      sha256 "036aca2b19be4fdb68ff05c5bf1d4af03c2a36bdb9cdf80a18ce603d73321027"
 
       def install
         bin.install "h2rzoom"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alfonsfoubert/h2rzoom/releases/download/v0.2.3/h2rzoom_0.2.3_linux_amd64.tar.gz"
-      sha256 "93fd01194568d1e2ac522cb48c529859d67fd6d899e624296fff131b9d59fcb4"
+      url "https://github.com/alfonsfoubert/h2rzoom/releases/download/v0.2.4/h2rzoom_0.2.4_linux_amd64.tar.gz"
+      sha256 "cb253c082915f09b6222ccf194146e80be7d0e1a32fb580ca309544272cf75d6"
 
       def install
         bin.install "h2rzoom"

@@ -20,7 +20,7 @@ universal_binaries:
 brews:
   - name: h2rzoom
     homepage: https://github.com/alfonsfoubert/h2rzoom
-    tap:
+    repository:
       owner: alfonsfoubert
       name: homebrew-alfonsfoubert
     commit_author:

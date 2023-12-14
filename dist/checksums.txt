@@ -1,3 +1,0 @@
-c401a33a80dd0bc9afda86aad8ce8aa633490aff9545ba4cf3baf754de137ffb  h2rzoom_0.1-SNAPSHOT-c6f475c_darwin_all.tar.gz
-5b5dae5b09003657c1bd6049196268e629b54536f2a2bf4d731fbd30a8f50716  h2rzoom_0.1-SNAPSHOT-c6f475c_linux_amd64.tar.gz
-478e5efe7cf49ac4c9c703caa1002989ec4a2a133b6d21b322a85021fd8d7cc1  h2rzoom_0.1-SNAPSHOT-c6f475c_linux_arm64.tar.gz
